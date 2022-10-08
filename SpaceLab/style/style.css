@@ -1,0 +1,772 @@
+body {
+  background-color: #000000;
+}
+body .text-header-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 0px 7px 0px;
+  align-items: center;
+}
+body .text-header-top p {
+  color: #969696;
+  font-family: "PT sans";
+  font-style: normal;
+}
+body .text-header-top p a {
+  text-decoration: none;
+  color: #969696;
+}
+body .text-header-top img {
+  margin: 0px 15px 0px 0px;
+}
+body .burger {
+  display: none;
+  background-color: rgb(68, 68, 68);
+  border: 1px solid white;
+}
+body .burger img {
+  width: 20px;
+  height: 20px;
+}
+body header {
+  background-color: #000000;
+}
+body header .navigation-bar {
+  background-color: #0F0F0F;
+}
+body header .navigation-bar nav {
+  display: flex;
+  justify-content: space-between;
+}
+body header .navigation-bar nav button {
+  text-decoration: none;
+  font-family: "PT sans";
+  color: gray;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+  padding: 15px 15px 15px 15px;
+}
+body header .navigation-bar nav button:hover {
+  transition: 0.3s;
+  background-color: #1F1F1F;
+  color: white;
+}
+body .block-1-men {
+  background-image: url(../image/background-men-block-3.png);
+  background-repeat: no-repeat no-repeat;
+  background-size: 100% auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .block-1-men img {
+  margin: 9% 0px 5% 0px;
+  width: 15%;
+}
+body .block-1-men p {
+  color: white;
+  width: 65%;
+  font-family: "PT sans";
+}
+body .block-2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
+}
+body .block-2 .block-2-left {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .block-2 .block-2-left .text-position {
+  margin: 3rem 0px 1.75rem 0px;
+}
+body .block-2 .block-2-left .text-position h3 {
+  font-family: "Playfair Display";
+  color: white;
+  font-size: 3rem;
+}
+body .block-2 .block-2-left .text-position h4 {
+  font-family: "Playfair Display";
+  color: white;
+  font-size: 2.5rem;
+}
+body .block-2 .block-2-left span {
+  border: 1px solid white;
+  width: 120px;
+  margin: 3% 0% 3% 0%;
+}
+body .block-2 .block-2-left .watch-items {
+  display: flex;
+  justify-content: space-between;
+}
+body .block-2 .block-2-left .watch-items .watch-item {
+  margin: 20px;
+}
+body .block-2 .block-2-left .watch-items .watch-item .watch {
+  max-width: 260px;
+  background-color: #191B1C;
+  padding: 1%;
+}
+body .block-2 .block-2-left .watch-items .watch-item .watch img {
+  width: 90%;
+}
+body .block-2 .block-2-left .watch-items .watch-item .name-price-watch {
+  display: flex;
+  flex-direction: column;
+}
+body .block-2 .block-2-left .watch-items .watch-item .name-price-watch h3 {
+  font-family: "Playfair Display";
+  color: white;
+  font-size: 1.5rem;
+}
+body .block-2 .block-2-left .watch-items .watch-item .name-price-watch h4 {
+  font-family: "Playfair Display";
+  color: white;
+  font-size: 1rem;
+}
+body .block-2 .block-2-right {
+  width: 45%;
+  background-image: url(../image/men-block-4.png);
+  background-repeat: no-repeat no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .block-2 .block-2-right span {
+  border: 1px solid white;
+  width: 120px;
+  margin: 1% 0px 1% 0px;
+}
+body .block-2 .block-2-right button {
+  width: 138px;
+  height: 47px;
+  font-family: "PT Sans";
+  border: 1px solid white;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+}
+body .block-2 .block-2-right h2 {
+  font-family: "Playfair Display";
+  color: white;
+  font-size: 2rem;
+  margin-top: 45%;
+}
+body .block-3 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
+}
+body .block-3 .block-3-left {
+  background-image: url(../image/smoking-block-5.png);
+  background-repeat: no-repeat no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+body .block-3 .block-3-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .block-3 .block-3-right h2 {
+  color: white;
+  font-family: "Playfair Display";
+  margin-top: 10%;
+  font-size: 3rem;
+}
+body .block-3 .block-3-right span {
+  width: 120px;
+  border: 1px solid white;
+  margin: 3% 0% 3% 0%;
+}
+body .block-3 .block-3-right p {
+  width: 65%;
+  color: white;
+  font-family: "PT Sans";
+  font-size: 0.8rem;
+  line-height: 150%;
+}
+body .block-3 .block-3-right button {
+  font-family: "PT Sans";
+  margin: 5% 0% 5% 0%;
+  width: 298px;
+  height: 47px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  color: white;
+}
+body .block-4 {
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .block-4 h2 {
+  color: white;
+  font-family: "Playfair Display";
+  margin: 50px 0px 50px 0px;
+  line-height: 48px;
+  font-size: 3rem;
+}
+body .block-4 span {
+  width: 120px;
+  border: 1px solid white;
+  margin: 1% 0% 5% 0%;
+}
+body .block-4 .block-4-watchs-galary {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+body .block-4 .block-4-watchs-galary .galary-item {
+  max-width: 260px;
+  margin: 0px 25px 40px 25px;
+}
+body .block-4 .block-4-watchs-galary .galary-item .error {
+  padding: 27px 29.5px 34px 30.5px;
+}
+body .block-4 .block-4-watchs-galary .galary-item .watch-image-decoration {
+  background-color: #191B1C;
+  padding: 27px 22px 34px 23px;
+}
+body .block-4 .block-4-watchs-galary .galary-item .error-image {
+  width: 200px;
+  height: 264px;
+}
+body .block-4 .block-4-watchs-galary .galary-item .image-8-error img {
+  width: 260px;
+  height: 325px;
+}
+body .block-4 .block-4-watchs-galary .galary-item .watch-info-price h3 {
+  color: white;
+  font-family: "Playfair Display";
+  margin: 20px 0px 5px 0px;
+  font-size: 1.4rem;
+}
+body .block-4 .block-4-watchs-galary .galary-item .watch-info-price h4 {
+  color: white;
+  font-family: "Playfair Display";
+  font-size: 1rem;
+}
+body .block-5 {
+  background-color: #0F0F0F;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .block-5 h3 {
+  color: white;
+  font-family: "Playfair Display";
+  font-size: 3rem;
+  margin: 50px 0px 50px 0px;
+}
+body .block-5 span {
+  border: 1px solid white;
+  width: 120px;
+  margin-bottom: 3%;
+}
+body .block-5 .articles-1 {
+  display: flex;
+  justify-content: space-between;
+}
+body .block-5 .articles-1 .articles-left {
+  background-image: url(../image/articles-1.png);
+  background-repeat: no-repeat no-repeat;
+  background-size: 100% auto;
+  width: 51%;
+}
+body .block-5 .articles-1 .articles-right {
+  width: 49%;
+  padding: 3% 5% 5% 6%;
+}
+body .block-5 .articles-1 .articles-right h4 {
+  color: #FFFFFF;
+  font-family: "PT Sans";
+  margin-bottom: 14px;
+}
+body .block-5 .articles-1 .articles-right p {
+  color: #FFFFFF;
+  font-family: "PT Sans";
+  letter-spacing: 0.1em;
+}
+body .block-5 .articles-1 .articles-right .btns-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+body .block-5 .articles-1 .articles-right .btn {
+  padding: 0;
+}
+body .block-5 .articles-1 .articles-right .btn button {
+  width: 129px;
+  height: 47px;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: "PT Sans";
+}
+body .block-5 .articles-1 .articles-right .links-articles a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: "PT Sans";
+}
+body .block-5 .articles-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+body .block-5 .articles-2 .articles-left {
+  background-image: url(../image/articles-2.png);
+  background-repeat: no-repeat no-repeat;
+  background-size: 100% auto;
+  width: 51%;
+}
+body .block-5 .articles-2 .articles-right {
+  width: 49%;
+  padding: 3% 5% 5% 6%;
+}
+body .block-5 .articles-2 .articles-right h4 {
+  color: #FFFFFF;
+  font-family: "PT Sans";
+  margin-bottom: 14px;
+}
+body .block-5 .articles-2 .articles-right p {
+  color: #FFFFFF;
+  font-family: "PT Sans";
+  letter-spacing: 0.1em;
+}
+body .block-5 .articles-2 .articles-right .btns-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+body .block-5 .articles-2 .articles-right .btn {
+  padding: 0;
+}
+body .block-5 .articles-2 .articles-right .btn button {
+  width: 129px;
+  height: 47px;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  background-color: rgba(0, 0, 0, 0);
+}
+body .block-5 .articles-2 .articles-right .links-articles a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: "PT Sans";
+}
+body .block-5 .articles-3 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+body .block-5 .articles-3 .articles-left {
+  background-image: url(../image/articles-3.png);
+  background-repeat: no-repeat no-repeat;
+  background-size: 100% auto;
+  width: 51%;
+}
+body .block-5 .articles-3 .articles-right {
+  width: 49%;
+  padding: 3% 5% 5% 6%;
+}
+body .block-5 .articles-3 .articles-right h4 {
+  color: #FFFFFF;
+  font-family: "PT Sans";
+  margin-bottom: 14px;
+}
+body .block-5 .articles-3 .articles-right p {
+  color: #FFFFFF;
+  font-family: "PT Sans";
+  letter-spacing: 0.1em;
+}
+body .block-5 .articles-3 .articles-right .btns-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+body .block-5 .articles-3 .articles-right .btn {
+  padding: 0;
+}
+body .block-5 .articles-3 .articles-right .btn button {
+  width: 129px;
+  height: 47px;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  background-color: rgba(0, 0, 0, 0);
+}
+body .block-5 .articles-3 .articles-right .links-articles a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: "PT Sans";
+}
+body .block-6 {
+  background-color: #0F0F0F;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .block-6 h2 {
+  color: white;
+  font-size: 3rem;
+  font-family: "Playfair Display";
+  padding: 70px 0px 70px 0px;
+}
+body .block-6 span {
+  border: 1px solid white;
+  width: 120px;
+}
+body .block-6 .partners {
+  display: flex;
+  align-items: center;
+  padding: 5% 10% 5% 10%;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body .block-6 .partners img {
+  padding: 15px;
+}
+body .block-7 {
+  background-image: url(../image/block-7-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat no-repeat;
+  padding: 4% 0% 2% 0%;
+}
+body .block-7 .information {
+  display: flex;
+  justify-content: space-between;
+}
+body .block-7 .information .about-company {
+  width: 31%;
+}
+body .block-7 .information .about-company h4 {
+  color: white;
+  font-family: "Playfair Display";
+  margin-bottom: 40px;
+}
+body .block-7 .information .about-company p {
+  color: white;
+  font-family: "PT Sans";
+  font-size: 0.8rem;
+  line-height: 150%;
+}
+body .block-7 .information .categories {
+  width: 31%;
+}
+body .block-7 .information .categories h4 {
+  color: white;
+  font-family: "Playfair Display";
+  margin-bottom: 40px;
+}
+body .block-7 .information .categories .categories-item {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+body .block-7 .information .categories .categories-item p {
+  background-color: #0F0F0F;
+  padding: 10px 20px 10px 20px;
+  color: #D0D0D0;
+  margin: 10px;
+}
+body .block-7 .information .newsletter {
+  width: 31%;
+}
+body .block-7 .information .newsletter h4 {
+  color: white;
+  font-family: "Playfair Display";
+  margin-bottom: 40px;
+}
+body .block-7 .information .newsletter p {
+  color: white;
+  font-family: "PT Sans";
+}
+body .block-7 .information .newsletter .email {
+  display: flex;
+  justify-content: start;
+}
+body .block-7 .information .newsletter .email input {
+  background: rgba(255, 255, 255, 0.4);
+  color: #969696;
+  width: 210px;
+  height: 42px;
+  border: 0;
+  width: 50%;
+}
+body .block-7 .information .newsletter .email button {
+  width: 137px;
+  height: 42px;
+  background-color: #0F0F0F;
+  color: white;
+  border: 0;
+  width: 40%;
+}
+body footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 11% 10px 11%;
+  background-color: #0F0F0F;
+}
+body footer p {
+  color: #D0D0D0;
+}
+body footer a {
+  color: #D0D0D0;
+}
+@media screen and (max-width: 1200px) {
+  body header .block-1-men img {
+    margin: 4% 0px 3% 0px;
+  }
+  body header .block-1-men p {
+    font-size: 10px;
+  }
+  body .block-5 .articles-1 .articles-right {
+    padding: 2% 3% 2% 3%;
+  }
+  body .block-5 .articles-1 .articles-right p {
+    font-size: 0.8rem;
+  }
+  body .block-5 .articles-1 .articles-right h4 {
+    font-size: 1.3rem;
+  }
+  body .block-5 .articles-2 .articles-right {
+    padding: 2% 3% 2% 3%;
+  }
+  body .block-5 .articles-2 .articles-right p {
+    font-size: 0.8rem;
+  }
+  body .block-5 .articles-2 .articles-right h4 {
+    font-size: 1.3rem;
+  }
+  body .block-5 .articles-3 .articles-right {
+    padding: 2% 3% 2% 3%;
+  }
+  body .block-5 .articles-3 .articles-right p {
+    font-size: 0.8rem;
+  }
+  body .block-5 .articles-3 .articles-right h4 {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  body .text-header-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  body .content-hidden {
+    display: none;
+  }
+  body .burger {
+    display: block;
+  }
+  body header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  body .block-5 .articles-1 .articles-left {
+    display: none;
+  }
+  body .block-5 .articles-1 .articles-right {
+    width: 100%;
+    background-image: url(../image/articles-1.png);
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    padding: 50px;
+    padding: 50px;
+  }
+  body .block-5 .articles-2 .articles-left {
+    display: none;
+  }
+  body .block-5 .articles-2 .articles-right {
+    width: 100%;
+    padding: 50px;
+    background-image: url(../image/articles-2.png);
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+  }
+  body .block-5 .articles-3 .articles-left {
+    display: none;
+  }
+  body .block-5 .articles-3 .articles-right {
+    width: 100%;
+    padding: 50px;
+    background-image: url(../image/articles-3.png);
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+  }
+  body .block-3 .block-3-left {
+    display: none;
+  }
+  body .block-3 .block-3-right {
+    width: 100%;
+    padding: 10px;
+    background-image: url(../image/smoking-block-5.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat no-repeat;
+  }
+  body .block-3 .block-3-right h2 {
+    color: white;
+    font-family: "Playfair Display";
+    margin-top: 10%;
+    font-size: 2rem;
+  }
+  body .block-3 .block-3-right span {
+    width: 120px;
+    border: 1px solid white;
+    margin: 1.5% 0% 1.5% 0%;
+  }
+  body .block-3 .block-3-right p {
+    width: 65%;
+    color: white;
+    font-family: "PT Sans";
+    font-size: 0.8rem;
+    line-height: 150%;
+  }
+  body .block-2 .block-2-right {
+    display: none;
+  }
+  body .block-2 .block-2-left {
+    width: 100%;
+    padding: 30px;
+  }
+  body .block-2 .block-2-left .watch-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  body .block-1-men p {
+    font-size: 0.6rem;
+  }
+  body .block-1-men .img {
+    margin: 4% 0px 3% 0px;
+  }
+}
+@media screen and (max-width: 650px) {
+  body .block-3-right h2 {
+    margin: 0;
+  }
+  body .block-3-right p {
+    width: 85%;
+  }
+  body .block-2 .block-2-left .text-position h3 {
+    font-size: 1.5rem;
+  }
+  body .block-2 .block-2-left .text-position h4 {
+    font-size: 1.5rem;
+  }
+  body .block-1-men img {
+    margin: 3% 0% 3% 0%;
+  }
+  body header nav .btn-s-mobile {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  body .content-hidden {
+    display: none;
+  }
+  body .burger {
+    display: block;
+  }
+  body .block-1-men p {
+    font-size: 0.4rem;
+  }
+  body .block-1-men .img {
+    margin: 2% 0px 1% 0px;
+  }
+  body .block-6 h2 {
+    font-size: 2rem;
+  }
+  body .partners img {
+    width: 70%;
+  }
+  body .block-5 .articles-1 .articles-right {
+    width: 100%;
+    background-image: none;
+    background-color: #969696;
+  }
+  body .block-5 .articles-1 .articles-right .links-articles {
+    display: none;
+  }
+  body .block-5 .articles-2 .articles-right {
+    width: 100%;
+    background-image: none;
+    background-color: #969696;
+  }
+  body .block-5 .articles-2 .articles-right .links-articles {
+    display: none;
+  }
+  body .block-5 .articles-3 .articles-right {
+    width: 100%;
+    background-image: none;
+    background-color: #969696;
+  }
+  body .block-5 .articles-3 .articles-right .links-articles {
+    display: none;
+  }
+  body .block-3 .block-3-left {
+    display: none;
+  }
+  body .block-3 .block-3-right {
+    width: 100%;
+    padding: 10px;
+    background-image: url(../image/smoking-block-5.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat no-repeat;
+  }
+  body .block-3 .block-3-right h2 {
+    color: white;
+    font-family: "Playfair Display";
+    margin-top: 10%;
+    font-size: 1.5rem;
+  }
+  body .block-3 .block-3-right span {
+    width: 120px;
+    border: 1px solid white;
+    margin: 1.5% 0% 1.5% 0%;
+  }
+  body .block-3 .block-3-right p {
+    width: 65%;
+    color: white;
+    font-family: "PT Sans";
+    font-size: 0.5rem;
+    line-height: 150%;
+  }
+  body .block-7 .information {
+    background-size: 100% auto;
+  }
+  body .block-7 .information .about-company {
+    display: none;
+  }
+  body .block-7 .information .categories {
+    display: none;
+  }
+  body .block-7 .information .newsletter {
+    width: 100%;
+    padding: 30px;
+  }
+  body header .navigation-bar nav .btn-s-mobile {
+    display: flex;
+  }
+  body .text-header-top p {
+    font-size: 0.7rem;
+  }
+}/*# sourceMappingURL=style.css.map */
